@@ -1,0 +1,23 @@
+{
+  "name": "coding-node",
+  "version": "0.0.1",
+  "description": "key value assignment test",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "tests": "mocha test/**/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.1.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.14",
+    "nodemon": "^2.0.4"
+  }
+}
